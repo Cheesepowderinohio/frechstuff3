@@ -1,0 +1,17 @@
+.btn-success:hover
+{
+    background-color:rgb(146, 101, 219);
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(0, 255, 136);}
+    to {box-shadow: 1px 1px 38px rgb(167, 151, 255);}
+    from {border-radius: 1px}
+    to {border-radius: 50px}
+}
